@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+    margin: 0px auto;
+    width: 60%;
+    height: 375px;
+    border: 2px solid lightgrey;
+}
+h1 {
+    font-size: 50px;
+    font-family: serif;
+    font-weight: 100;
+}
+h3 {
+    font-size: 20px;
+    font-family: serif;
+    font-weight: 100;
+}
+.topBox {
+    background-color: rgb(3, 136, 189);
+    width: 100%;
+    height: 25%;
+}
+.picture {
+    width: 125px;
+    margin-bottom: 5px;
+}
+.map {
+    height: 20px;
+}
+.location {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.attributes {
+    font-family: serif;
+    font-weight: 600;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.dev, .eng {
+    border-right: 2px solid black;
+    padding-right: 5px;
+}
+.adjustments {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+}
+.master, h3 {
+    font-weight: 600;
+}
+.gear-picture {
+    height: 20px;
+}
+.edit-profile {
+    font-family: serif;
+    font-weight: 600;
+}
+.overall {
+    margin-left: 20px;
+    position: absolute;
+    top: 40px;
+}
